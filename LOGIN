@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="login.css" type="text/css" />
+   <script src="login1.js"></script>
+   <title>Login interface</title>
+ </head>
+ <body>
+     <body background=".\背景图.jpg">
+     <div class="div1">
+	 <h1 align="center" >用户登录</h1>
+	   
+	     <form action = ""  method = "">
+		      <input type = "text" class = "box" placeholder = "&nbsp;&nbsp;&nbsp;用户账号"  data-validate="requred:请输入账号"/><br>
+			  <span><i class="user"hidden="true"></i></span>
+              <input type = "password" class = "box" placeholder = "&nbsp;&nbsp;&nbsp;用户密码"  data-validate="requred:请输入密码"/><br>
+			   <span><i class="key"hidden="true"></i></span>
+
+              <input type="button"  value = "登&nbsp&nbsp录" class= "log"  autocomplete = "on"><br>
+		      <a href = "./registered.html" >新用户注册</a>		      
+	      </form>
+		 
+             
+     </div>
+<header class="header">
+<div class="nva">
+<ul class="list"> 
+   <li><a href="#"><b>首页</b><i>Home </i> </a></li>        
+<li><a href="https://www.runoob.com/html/html-tutorial.html"><b>HTML</b><i>html</i></a></li>      
+<li><a href="https://www.runoob.com/css/css-tutorial.html"><b>CSS</b><i></i>css</a></li>        
+<li><a href="https://www.runoob.com/js/js-tutorial.html"><b>JAVASCRIPT</b><i>JS</i></a></li>        
+<li><a href="#"><b>考试中心</b><i>考前突击</i></a></li>       
+<li><a href="#"><b>关注我们</b><i>期末通过</i></a></li>
+ 
+</ul>
+<div class="content">
+
+  </div>
+     <div class="piece1"></div>
+     <div class="piece2"></div>
+
+<div class="foot">@2020.6.20 web课程设计</div>
+<audio autoplay="autoplay" loop="loop" preload="auto" controls="controls" src=".\背景音乐1.mp3" type="audio/mp3" >       
+</audio>
+</body>
+</html>
