@@ -1,0 +1,29 @@
+
+body{
+   line-height:1.7;
+}
+.side-bar{
+   float:left;
+   width:20%;
+}
+.side-bar > *{
+   padding: 10px  15px;
+}
+.main{
+  float:right;
+  width:80%;
+}
+.header2 .logo1{
+box-shadow: 5px 5px 5px rgba(17, 39, 59, 0.6);
+border:5px solid #0B3054;
+padding:10px 20px;
+font-size:30px;
+display:inline-block;
+margin-bottom:10px;
+}
+a{
+  text-decoration:none;
+}
+a,body{
+ color:#0B3054;
+}
